@@ -1,0 +1,14 @@
+.home__main__component{
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+    .carousel-indicators [data-bs-target]{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    .carousel-indicators .active{
+        background-color: $primary;
+    }
+}

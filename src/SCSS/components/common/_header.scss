@@ -1,0 +1,36 @@
+.header__main{
+    .navbar-nav .nav-link {
+        color: $dark;
+        padding-top: 2rem;
+        text-transform: uppercase;
+
+        .globe-btn{
+            color: #a1a1a1;
+            border: 1px solid #a1a1a1;;
+        }
+    }
+
+    .nav-link:hover {
+        background-color: $primary;
+        color: #fff!important;
+    }
+    
+    .dropdown-menu {
+        border: 1px solid #96b1f9;
+        
+        .dropdown-item{
+            color: $primary;
+            text-align: center;
+            padding: 0.25rem 0.25rem;
+        
+            p {
+                font-size: 11px;
+            }
+        }
+
+        .dropdown-item:hover, .dropdown-item:active {
+            color: #fff;
+            background-color: $primary;
+        }
+    }
+}
