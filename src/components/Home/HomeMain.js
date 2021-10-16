@@ -5,7 +5,7 @@ import banner from '../../assets/images/banner.png'
 const HomeMain = () => {
     return (
         <div className="home__main__component">
-            <div className="home_main py-5">
+            <div className="home_main pt-5">
                 <Row className="mx-0 align-items-center">
                     <Col md={6} className="px-0">
                         <Carousel>
